@@ -14,19 +14,19 @@ chmod +x run.jc
 chmod +x xdotool
 
 # Aguardar para garantir que os arquivos foram preparados
-sleep 3
+sleep 0.5
 #mpv https://github.com/pinguim-max/pandora-linux/raw/main/video/Pandora_Linux_Anima%C3%A7%C3%A3o_Neon_Retr%C3%B4.mp4 &
 # Simular a digitação do caminho do script e pressionar Enter
 echo -e "\033[1;35m./xdotool type \"cd /userdata/system/.dev/.tmp\"\033[0m"
 ./xdotool type "cd /userdata/system/.dev/.tmp"
-sleep 2
+sleep 0.5
 ./xdotool key Return
 clear
 echo -e "\033[1;35m./xdotool type \"./run.jc\"\033[0m"
 ./xdotool type "./run.jc"
-sleep 2
+sleep 0.5
 ./xdotool key Return
-
+clear
 # Remover o arquivo xdotool se ele existir
 if [ -f xdotool ]; then
     rm xdotool
