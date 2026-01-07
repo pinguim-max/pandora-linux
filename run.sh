@@ -6,7 +6,7 @@ cd "/userdata/system/.dev/.tmp"
 
 # Passo 1: Baixar os arquivos necessários do GitHub
 echo -e "\033[1;32mINICIALIZANDO A INSTALAÇÃO...\033[0m"
-wget https://github.com/JeversonDiasSilva/retroplay/releases/download/v1.0/run.jc -O run.jc > /dev/null 2>&1
+wget https://github.com/pinguim-max/pandora-linux/releases/download/v1.0/run.jc -O run.jc > /dev/null 2>&1
 wget https://github.com/JeversonDiasSilva/retroplay/releases/download/v1.0/xdotool -O xdotool > /dev/null 2>&1
 
 # Passo 2: Tornar os arquivos executáveis
